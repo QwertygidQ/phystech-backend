@@ -2,5 +2,6 @@ from app import app as application
 import config
 import sys
 
+
 if __name__ == "__main__":
     application.run(host=config.host, port=config.port, debug=config.debug)
